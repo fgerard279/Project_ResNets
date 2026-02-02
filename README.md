@@ -10,7 +10,7 @@ L'objectif de ce projet a été de reporduire les résultats clés de l'article 
 
 
 
-Contenu du Repository :
+## Contenu du Repository :
 
 paper/ : L'article original de Kaiming He et al.
 
