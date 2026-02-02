@@ -23,14 +23,14 @@ results/ : Graphiques de perte (loss) et précision (accuracy) générés
 
 
 
-Le Concept : ResNet
+## Le Concept : ResNet
 
 Les réseaux de neurones très profonds souffrent d'un problème de dégradation : ajouter des couches augmente l'erreur d'entraînement, non pas à cause du surapprentissage, mais à cause de difficultés d'optimisation.La solution : L'apprentissage résiduel. Au lieu d'apprendre une fonction $H(x)$, on force le réseau à apprendre le résidu $F(x) = H(x) - x$ grâce à des "shortcut connections" (connexions raccourcies).
 
 
  
  
- Méthodologie : 
+ ## Méthodologie : 
  
  J'ai mené mes expériences sur le dataset CIFAR-10, en suivant le protocole décrit dans la section 4.2 de l'article :
  
@@ -43,7 +43,7 @@ Pré-traitement : Normalisation
 
 
 
-Expérience & Résultats1.
+## Expérience & Résultats.
 Reproduction des résultats (Baseline)
 
 Comparaison de l'erreur d'entraînement et de test au fil des époques.
@@ -55,11 +55,13 @@ ResNet-56 vs ResNet-20 : Le ResNet-56 surpasse le ResNet-20, prouvant l'efficaci
 
 
 
-Partie Exploratoire : Impact de la Batch Normalisation
+## Partie Exploratoire : 
+
+Impact de la Batch Normalisation
 
 
 
-Références
+## Références
 - **Article Original :** He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep Residual Learning for Image Recognition. *CVPR*. [Lien PDF](https://arxiv.org/pdf/1512.03385.pdf)
 - **Dataset :** [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) 
 
